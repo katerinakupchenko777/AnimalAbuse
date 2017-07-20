@@ -71,8 +71,8 @@ body, html{
 	background-size: 100%;
 	text-align: center;
 	display:flex;
-    align-items: center;
-    justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 #h_cr{
 	width:100%;
@@ -84,11 +84,11 @@ body, html{
 	animation: bwfade 12s infinite;
 
 	-webkit-animation-fill-mode:forwards; /* Safari */
-    -moz-animation-fill-mode:forwards; /* ff*/
-    animation-fill-mode:forwards; 
+  -moz-animation-fill-mode:forwards; /* ff*/
+  animation-fill-mode:forwards; 
 
-    -webkit-transition-timing-function: ease-in; /* Safari */
-    transition-timing-function: ease-in;
+  -webkit-transition-timing-function: ease-in; /* Safari */
+  transition-timing-function: ease-in;
 }
 
 #h_h1b{

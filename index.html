@@ -6,8 +6,17 @@
 		<link rel="stylesheet" type="text/css" href="main_css.css">
 	</head>
 	<body>
-		
+
 		<div id = 'head'>
+			
+			<!-- Fade -->
+			<div id = 'h_cr'></div>
+
+			<div id='h_wrds'>
+				<!-- Gotta be have the same text -->
+				<h1 id='h_h1b'>Animal Abuse</h1>
+				<h1 id='h_h1'>Animal Abuse</h1>
+			</div>
 			<div id='b_nav'>
 				<ul id='nav'>
 					<!-- <center> -->
@@ -17,16 +26,15 @@
 						<a href='#b_a' title='About'>About</a>
 					<!-- </center> -->
 				</ul>
+				<!-- <div id='dropTpc'>
+					<ul>
+						<a>Circus</a>
+						<a>Fight</a>
+						<a>Circus</a>
+						<a>Circus</a>
+					</ul>
+				</div> -->
 			</div>
-			<!-- Fade -->
-			<div id = 'h_cr'></div>
-			
-			<div id='h_wrds'>
-				<!-- Gotta be have the same text -->
-				<h1 id='h_h1b'>Animal Abuse</h1>
-				<h1 id='h_h1'>Animal Absue</h1>
-			</div>
-
 		</div>
 
 		<div id = 'body'>
@@ -56,20 +64,22 @@
 			var change = setInterval(yeah, 12000);
 			var d = document.getElementById('head');
 			var curtain = document.getElementById('h_cr');
+			var images = ['0.jpg','1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg', '6.jpg', '7.jpg','8.jpg','9.jpg', '10.jpg','11.jpg','12.jpg','11.jpg','12.jpg','11.jpg','12.jpg','11.jpg','12.jpg','11.jpg','12.jpg','11.jpg','12.jpg'];
+			var imgCount = images.length;
 			function yeah() {
-
-				var imgCount = 10;
-				var dir = 'oh/';
-
 				var randomCount = (Math.floor(Math.random() * imgCount));
 
-				var images = ['0.jpg','1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg', '6.jpg', '7.jpg','8.jpg','9.jpg', '10.jpg'];
-
-				d.setAttribute("style", "background-image: url(" + dir + images[randomCount] + ");");
-
-
+				d.setAttribute("style", "background-image: url(oh/"+ images[randomCount] + ");");
 			}
 			/********Header Fade End********/
+
+			/********Drop Down********/
+			var n_topic = document.getElementById('b_t_drp');
+			 
+			function showTopic(){
+
+			};
+
 		</script>
 	</body>
 </html>
