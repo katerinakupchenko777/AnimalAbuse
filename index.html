@@ -1,24 +1,73 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>gxcgdf</title>
-	<style type="text/css">
-		body{
-			background-color:red;
+	<html>
+	<head>
+		<title>Animal Abuse is bad ;(</title>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="main_css.css">
+	</head>
+	<body>
+		<div id = 'head'>
+			<!-- Fade -->
+			<div id = 'h_cr'></div>
 
-		}
-	</style>
+			<div id='h_wrds'>
+				<!-- Gotta be have the same text -->
+				<h1 id='h_h1b'>Animal Abuse</h1>
+				<h1 id='h_h1'>Animal Absue</h1>
+			</div>
 
-	
-</head>
-<body>
-<nav>
-<a href="index.html">menu 1</a>
-<a href="menu 2.html">menu 2</a>
-<a href="menu 3.html">menu 3</a>
-<a href="menu 4.html">menu 4</a>
-<a href="menu 5.html">menu 5</a> 
+		</div>
 
-</nav> 
-</body>
+		<div id = 'body'>
+			<div id='b_nav'>
+				<ul id='nav'>
+					<center>
+						<a href='#head' title='Home'>Home</a>
+						<a href='#b_t' title='Topics' id='b_t_drp'>Topics</a>
+						<a href='#b_p' title='Prevent'>Prevent</a>
+						<a href='#b_a' title='About'>About</a>
+					</center>
+				</ul>
+			</div>
+
+			<div class='b_wrds'>
+				<div id='b_a'>
+					<h1>abdosa</h1>
+					<p>we are a group against animal a🅱use</p>
+				</div>
+			</div>
+			<div class='b_wrds'>
+				
+			</div>
+			<div class='b_wrds'>
+				
+			</div>
+
+		</div>
+
+		<div id = 'foot'>
+		
+		</div>
+		
+		<script>
+			/********Header Fade********/
+			var change = setInterval(yeah, 12000);
+			var d = document.getElementById('head');
+			var curtain = document.getElementById('h_cr');
+			function yeah() {
+
+				var imgCount = 10;
+				var dir = 'oh/';
+
+				var randomCount = (Math.floor(Math.random() * imgCount));
+
+				var images = ['0.jpg','1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg', '6.jpg', '7.jpg','8.jpg','9.jpg', '10.jpg'];
+
+				d.setAttribute("style", "background-image: url(" + dir + images[randomCount] + ");");
+
+
+			}
+			/********Header Fade End********/
+		</script>
+	</body>
 </html>
