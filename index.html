@@ -50,16 +50,29 @@
 			</div>
 			
 
+			<div class='b_wrds'>
+				<div id='b_a'>
+					<h1>Purpose Of Page</h1>
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+					<a href='about.html'>read more</a>
+				</div>
+			</div>
+
 		</div>
 
 		<div id = 'foot'>
 		
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script src="jsj.js"></script>
 
 		<script>
 			$(document).ready(function(){
-				$(this.body).scrollTop(0);	
 
 				/********Header Fade********/
 				var change = setInterval(yeah, 12000);
@@ -70,26 +83,10 @@
 				function yeah() {
 					var randomCount = (Math.floor(Math.random() * imgCount));
 
-					$('#head').css("background-image","url(oh/"+ images[randomCount] + ")");
+				$('#head').css("background-image","url(oh/"+ images[randomCount] + ")");
 				}
 				/********Header Fade End********/
-
-				// /********Drop Down********/
-				var n_topic = $('#b_t_drp');
-				var n_tpcs = $('#dropTpc');
-				n_topic.hover(drop,nvmdrop);
-
-				n_tpcs.hover(drop,nvmdrop);
-
-				function drop(){
-					n_tpcs.css("visibility","visible");
-				}
-				function nvmdrop(){
-					n_tpcs.css("visibility","hidden");
-					
-				}
 			});
-			//  /********Drop Down End********/
 
 
 		</script>
