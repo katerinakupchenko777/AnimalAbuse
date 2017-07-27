@@ -7,12 +7,14 @@ $(document).ready(function(){
 	n_topic.hover(drop,nvmdrop);
 
 	n_tpcs.hover(drop,nvmdrop);
-
+	var drop = false;
 	function drop(){
 		n_tpcs.css("visibility","visible");
+
 	}
 	function nvmdrop(){
-		n_tpcs.css("visibility","hidden");
+		n_tpcs.delay(1000).css("visibility","hidden");
 					
 	}
+	
 });
