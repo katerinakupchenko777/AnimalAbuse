@@ -60,37 +60,39 @@
 		<script>
 			$(document).ready(function(){
 				$(this.body).scrollTop(0);	
-			});
+
+				/********Header Fade********/
+				var change = setInterval(yeah, 12000);
+				var d = $('#head');
+				var curtain = $('#h_cr');
+				var images = ['0.jpg','1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg', '6.jpg', '7.jpg','8.jpg','9.jpg', '10.jpg'];
+				var imgCount = images.length;
+				function yeah() {
+					var randomCount = (Math.floor(Math.random() * imgCount));
+
+					d.setAttribute("style", "background-image: url(oh/"+ images[randomCount] + ");");
+				}
+				/********Header Fade End********/
+
+				// /********Drop Down********/
+				var n_topic = $('#b_t_drp');
+				var n_tpcs = $('#dropTpc');
+				n_topic.addEventListener("mouseover", drop);
+				n_topic.addEventListener("mouseout", nvmdrop);
+				n_tpcs.addEventListener("mouseover", drop);
+				n_tpcs.addEventListener("mouseout", nvmdrop);
+				function drop(){
+					n_tpcs.setAttribute("style", "visibility:visible;");
+					
+				}
+				function nvmdrop(){
+					n_tpcs.setAttribute("style", "visibility:hidden;");
+					
+				}
+				});
 			
 
-			/********Header Fade********/
-			var change = setInterval(yeah, 12000);
-			var d = document.getElementById('head');
-			var curtain = document.getElementById('h_cr');
-			var images = ['0.jpg','1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg', '6.jpg', '7.jpg','8.jpg','9.jpg', '10.jpg'];
-			var imgCount = images.length;
-			function yeah() {
-				var randomCount = (Math.floor(Math.random() * imgCount));
-
-				d.setAttribute("style", "background-image: url(oh/"+ images[randomCount] + ");");
-			}
-			/********Header Fade End********/
-
-			// /********Drop Down********/
-			var n_topic = document.getElementById('b_t_drp');
-			var n_tpcs = document.getElementById('dropTpc');
-			n_topic.addEventListener("mouseover", drop);
-			n_topic.addEventListener("mouseout", nvmdrop);
-			n_tpcs.addEventListener("mouseover", drop);
-			n_tpcs.addEventListener("mouseout", nvmdrop);
-			function drop(){
-				n_tpcs.setAttribute("style", "visibility:visible;");
-				
-			}
-			function nvmdrop(){
-				n_tpcs.setAttribute("style", "visibility:hidden;");
-				
-			}
+			
 			//  /********Drop Down End********/
 		</script>
 	</body>
