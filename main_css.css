@@ -115,10 +115,7 @@ hr{
 #b_a h1{
   transition: 0.3s;
 }
-#b_a h1:hover{
-  border-bottom: 2px solid rgba(0,0,0,0.5);
 
-}
 .b_wrds{
   padding-top:5px;
   width:100%;
