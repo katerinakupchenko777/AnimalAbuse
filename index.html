@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>APCAs</title>
+		<title>PACA | Home</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="main_css.css">
 	</head>
@@ -70,28 +70,28 @@
 				function yeah() {
 					var randomCount = (Math.floor(Math.random() * imgCount));
 
-					d.setAttribute("style", "background-image: url(oh/"+ images[randomCount] + ");");
+					$('#head').css("background-image","url(oh/"+ images[randomCount] + ")");
 				}
 				/********Header Fade End********/
 
 				// /********Drop Down********/
 				var n_topic = $('#b_t_drp');
 				var n_tpcs = $('#dropTpc');
-				n_topic.addEventListener("mouseover", drop);
-				n_topic.addEventListener("mouseout", nvmdrop);
-				n_tpcs.addEventListener("mouseover", drop);
-				n_tpcs.addEventListener("mouseout", nvmdrop);
+				n_topic.hover(drop,nvmdrop);
+
+				n_tpcs.hover(drop,nvmdrop);
+
 				function drop(){
-					n_tpcs.setAttribute("style", "visibility:visible;");
+					n_tpcs.css("visibility","visible");
 				}
 				function nvmdrop(){
-					n_tpcs.setAttribute("style", "visibility:hidden;");
+					n_tpcs.css("visibility","hidden");
 					
 				}
-				});
+			});
 			//  /********Drop Down End********/
 
-				
+
 		</script>
 	</body>
 </html>

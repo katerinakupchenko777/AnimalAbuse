@@ -166,9 +166,10 @@ hr{
   position: absolute;
   background-color: rgba(95,95,160,0.95);
   text-align: center;
-  margin-left: 40%;
+  margin-left: -6em;
   width:10%;
-
+  top: 4.96em;
+  transition: 0.2s;
 }
 #dropTpc a{
   display: block;
