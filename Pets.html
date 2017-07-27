@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>About</title>
+		<title>Pet Abuse</title>
 		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="main_css.css">
 		<link rel="stylesheet" type="text/css" href="pet_css.css">
@@ -19,10 +19,10 @@
 				</ul>
 				<div id='dropTpc'>
 					<ul>
-						<a>Circus</a>
-						<a>Fight</a>
+						<a href="#">Circus</a>
+						<a href="#">Fight</a>
 						<a href="Pets.html">Pets</a>
-						<a>Warefare</a>
+						<a href="#"></a> href>Warfare</a>
 					</ul>
 				</div>
 			</div>
@@ -36,7 +36,10 @@
 				<div id='b_a'>
 					<h1><b>Pet Abuse</b></h1>
 					<br>
-					<p>Pets are our friends, so we should treat them like so.  </p>
+					<p>There are a lot of pet owners in the world. Some people love their pets, but others will abuse their pets. <br> Abuse owners will be horrible things to their pets that may lead to death. There are two kind <br> of animal cruelty, active and passive cruelty. Active cruelty are animals that intent to harm to an animal creating <br> immediate pain and suffering. Passive cruelty are creating prolonged suffering. Some teens will use pet just for a prank or for fun <br> that can go wrong and horrible injury. Animal abuser are five times more likely to commit violent crimes against people. <br>Based on the F.B.I analyzed on the lives of serial killer, they stated that most killers have killed<br> or tortured animals as children. Pets will feel a lot of pain and fear by owners. It will cause them to have <br>disorder like being aggressive to people, experience sadism, against human, and etc. <br> Pets are like human too. They breath, drink and eat like us. <br>They have a heart and have emotions like us humans. 
+
+					<br><br>Do not get a pet if your not going to love them.
+					</p>
 
 
 				</div>
@@ -49,42 +52,10 @@
 		
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-		<script>
-			$(document).ready(function(){
-				$(this.body).scrollTop(0);	
-
-				/********Header Fade********/
-				var change = setInterval(yeah, 12000);
-				var d = $('#head');
-				var curtain = $('#h_cr');
-				var images = ['0.jpg','1.jpg', '2.jpg', '3.jpg','4.jpg','5.jpg', '6.jpg', '7.jpg','8.jpg','9.jpg', '10.jpg'];
-				var imgCount = images.length;
-				function yeah() {
-					var randomCount = (Math.floor(Math.random() * imgCount));
-
-					$('#head').css("background-image","url(oh/"+ images[randomCount] + ")");
-				}
-				/********Header Fade End********/
-
-				// /********Drop Down********/
-				var n_topic = $('#b_t_drp');
-				var n_tpcs = $('#dropTpc');
-				n_topic.hover(drop,nvmdrop);
-
-				n_tpcs.hover(drop,nvmdrop);
-
-				function drop(){
-					n_tpcs.css("visibility","visible");
-				}
-				function nvmdrop(){
-					n_tpcs.css("visibility","hidden");
-					
-				}
-			});
-			//  /********Drop Down End********/
+		<script src="jsj.js"></script>
 
 
-		</script>
+
+
 	</body>
 </html>
