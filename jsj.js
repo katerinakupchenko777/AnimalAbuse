@@ -4,6 +4,7 @@ $(document).ready(function(){
 	// /********Drop Down********/
 	var n_topic = $('#b_t_drp');
 	var n_tpcs = $('#dropTpc');
+	
 	n_topic.hover(drop,nvmdrop);
 
 	n_tpcs.hover(drop,nvmdrop);
@@ -13,7 +14,7 @@ $(document).ready(function(){
 
 	}
 	function nvmdrop(){
-		n_tpcs.delay(1000).css("visibility","hidden");
+		n_tpcs.css("visibility","hidden");
 					
 	}
 	

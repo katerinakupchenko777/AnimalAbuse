@@ -67,13 +67,14 @@ body, html{
   width:100%;
   height:100%;
   position: relative;
-  background-image: url('oh/1.jpg');
+  background-image: url('oh/2.jpg');
   background-size: 100%;
   text-align: center;
   display:flex;
   align-items: center;
   justify-content: center;
 }
+
 #h_cr{
   width:100%;
   height:100%;
@@ -102,6 +103,9 @@ body, html{
   width:100%;
   font-size: 2.6em;
   font-family:'Roboto Slab', sans-serif;
+
+  text-shadow: black 2px 5px;
+
 }
 hr{
   margin: 10px;
@@ -119,13 +123,13 @@ hr{
 .b_wrds{
   padding-top:5px;
   padding-bottom:85px;
-  border-top: 4px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px rgb(210,225,215) dotted;
+  border-bottom: 2px rgb(210,225,215) dotted;
   justify-content: center;
   height:100%;
   text-align: center;
   font-size: 1.45em;
-  background-color: rgb(220,230,225);
+  background-color: rgb(220,235,235);
   font-family:'Roboto Slab', sans-serif;
 }
 .b_wrds li{
