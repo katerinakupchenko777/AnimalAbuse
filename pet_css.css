@@ -1,0 +1,25 @@
+#b_b{
+  width:100%;
+  text-align: left;
+  font-size: 20px;
+
+}
+#b_b h1{
+  transition: 0.3s;
+}
+
+#video1{
+	margin: 0;
+	position: absolute;
+	top: 600px;
+	left: 950px;
+}
+
+#image1{
+	margin: 0;
+	position: absolute;
+	top: 600px;
+	left: 10px;
+}
+
+
