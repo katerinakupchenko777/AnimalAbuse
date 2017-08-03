@@ -51,7 +51,7 @@
 					<br>
 					<br>
 					<br>
-					<br>
+					
 					<hr id='b_topicsss'>
 				</div>
 			</div>
@@ -67,7 +67,7 @@
 							<div id='b_ts_c' class='add_img'>
 								<h2>Circus</h2>
 								<p>
-									Circus animals may seem fun and entertaining to watch but there is another side to the fun tricks that these animals are<br> <i>forced</i> do.
+									Circus animals may seem fun and entertaining to watch but there is another side to the tricks that these animals are<br> <i>forced</i> do.
 								</p>
 								<p><i>read more...</i></p>
 							</div>
@@ -130,18 +130,21 @@
 		<script>
 			$(document).ready(function(){
 
-				/********Header Fade********/
+				/********Header animations********/
 				var change = setInterval(yeah, 12000);
-				var d = $('#head');
+				var bk = $('#head');
 				var curtain = $('#h_cr');
 				var images = ['0.jpeg','1.jpeg', '2.jpg', '3.jpeg','4.jpeg','5.jpeg', '6.jpeg', '7.jpeg','8.jpeg','9.jpeg', '10.jpeg', '11.jpeg', '12.jpeg'];
 				var imgCount = images.length;
 				function yeah() {
 					var randomCount = (Math.floor(Math.random() * imgCount));
 
-					$('#head').css("background-image","url(oh/p"+ images[randomCount] + ")");
+					bk.css("background-image","url(oh/p"+ images[randomCount] + ")");
 				}
-				/********Header Fade End********/
+				/********Header Animations End********/
+
+				
+
 			});
 
 
