@@ -29,7 +29,7 @@
 				<div id='dropTpc'>
 					<ul>
 						<a href='circus.html'>Circus</a>
-						<a href='fight.html'>Fight</a>
+						<a href='Dogfights.html'>Fight</a>
 						<a href='pets.html'>Pets</a>
 						<a href='warfare.html'>Warfare</a>
 					</ul>
@@ -55,33 +55,45 @@
 					<br>
 					<div id='b_ts'>
 						<div id='ab_fl'>
-							<div id='b_ts_c'>
+							<a href='circus.html' style="text-decoration: none;">
+							<div id='b_ts_c' class='add_img'>
 								<h2>Circus</h2>
 								<p>
-									Cicus animals lmaooasodisuadiouwioajdisjaio dias di hauisc bsuai dhoua cnusioa cguwio ahcisop aywepd sanchsuioa ycip wqjdop 
+									Circus animals may seem fun and entertaining to watch but there is another side to the fun tricks that these animals are <i>forced</i> do.
 								</p>
+								<p><i>read more...</i></p>
 							</div>
+							</a>
 
-							<div id='b_ts_f'>
+							<a href="Dogfights.html">
+							<div id='b_ts_f' class='add_img'>
 								<h2>Fights</h2>
 								<p>
-									Cicus animals lmaooasodisuadiouwioajdisjaio dias di hauisc bsuai dhoua cnusioa cguwio ahcisop aywepd sanchsuioa ycip wqjdop 
+									Animals seem to be cute and harmless to some people but to others they are ruthless and are given drugs to kill others in a ring fight.
 								</p>
+								<p><i>read more...</i></p>
 							</div>
+							</a>
 
-							<div id='b_ts_p'>
+							<a href="pets.html">
+							<div id='b_ts_p' class='add_img'>
 								<h2>Pets</h2>
 								<p>
-									Cicus animals lmaooasodisuadiouwioajdisjaio dias di hauisc bsuai dhoua cnusioa cguwio ahcisop aywepd sanchsuioa ycip wqjdop 
+									Buying a pet should be a way to bond with it and have something to do other than be bored. However, sometimes pet owners get aggresive with their pets.
 								</p>
+								<p><i>read more...</i></p>
 							</div>
+							</a>
 
-							<div id='b_ts_w'>
+							<a href="warfare.html">
+							<div id='b_ts_w' class='add_img'>
 								<h2>Warfare</h2>
 								<p>
-									Cicus animals lmaooasodisuadiouwioajdisjaio dias di hauisc bsuai dhoua cnusioa cguwio ahcisop aywepd sanchsuioa ycip wqjdop 
+									Animals used to be used as weapons of war. They would help carry ammunition and sometimes mount some sort of gun as an extra unit.
 								</p>
+								<p><i>read more...</i></p>
 							</div>
+							</a>
 						</div>
 					</div>	
 				</div>
@@ -89,7 +101,7 @@
 
 		<div id = 'foot'>
 			<center>
-				<img src='oh/logo.png' height="230px" id='f_img'>
+				<img src='oh/logo.png' height="230px" id='f_img' title='APCA'>
 				<p>© 2017 Prevent Animal Cruelty Association. All rights reserved.</p>
 			</center>
 			<div id="links">
@@ -114,12 +126,12 @@
 				var change = setInterval(yeah, 12000);
 				var d = $('#head');
 				var curtain = $('#h_cr');
-				var images = ['0.jpeg','1.jpeg', '2.jpeg', '3.jpeg','4.jpeg','5.jpeg', '6.jpeg', '7.jpeg','8.jpeg','9.jpeg', '10.jpeg', '11.jpeg', '12.jpeg'];
+				var images = ['0.jpeg','1.jpeg', '2.jpg', '3.jpeg','4.jpeg','5.jpeg', '6.jpeg', '7.jpeg','8.jpeg','9.jpeg', '10.jpeg', '11.jpeg', '12.jpeg'];
 				var imgCount = images.length;
 				function yeah() {
 					var randomCount = (Math.floor(Math.random() * imgCount));
 
-				$('#head').css("background-image","url(oh/p"+ images[randomCount] + ")");
+					$('#head').css("background-image","url(oh/p"+ images[randomCount] + ")");
 				}
 				/********Header Fade End********/
 			});
