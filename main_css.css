@@ -63,7 +63,8 @@
     }
     
     100%{
-      background-position: 30% 50%;
+      background-position-x: 5%;
+      background-position-y: 25%;
     }
 }
 /* -----Animations End----- */
