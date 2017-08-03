@@ -9,18 +9,10 @@
   transition: 0.3s;
 }
 
-#video1{
-	margin: 0;
-	position: absolute;
-	top: 600px;
-	left: 950px;
-}
-
-#image1{
-	margin: 0;
-	position: absolute;
-	top: 600px;
-	left: 10px;
+#media{
+	display: flex;
+	justify-content: center;
+	padding: 10px 40px 60px 40px;
 }
 
 
