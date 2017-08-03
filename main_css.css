@@ -97,12 +97,24 @@ body, html{
 }
 
 #ab_fl div{
+  background: rgba(120,140,120,0.3);
+  padding: 5px 20px 25px 20px;
+  margin: 5px 20px 5px 20px;
+  color: rgb(155,145,145);
+  transition: 0.2s;
+  
+}
+
+#ab_fl div:hover{
   background: rgba(120,140,120,0.5);
   padding: 5px 20px 25px 20px;
   margin: 5px 20px 5px 20px;
-  color: rgb(235,245,245);
+  color: rgb(155,145,145);
+  margin-top: -10px;
+  margin-bottom: -10px;
   
 }
+
 
 #h_h1b{
   position: absolute;
@@ -257,4 +269,7 @@ hr{
 }
 #links a{
   padding: 20px;
+  background-color: white;
+  margin: 5px 10px 5px 10px;
+  border-radius: 100%;
 }
