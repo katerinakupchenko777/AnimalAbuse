@@ -205,8 +205,9 @@ hr{
   color: white;
 }
 
-#f_img{
+.f_img{
   padding: 20px 40px 20px 40px;
+  border-radius: 100%;
 }
 
 #nav{
@@ -302,3 +303,4 @@ hr{
 #profile4 {
   border-radius: 100%;
 }
+
