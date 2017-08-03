@@ -274,3 +274,31 @@ hr{
   margin: 5px 10px 5px 10px;
   border-radius: 100%;
 }
+#about{
+  display: flex;
+  justify-content: flex-start;
+
+}
+#about div{
+  padding: 10px;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-left: solid;
+  border-right: solid;
+
+  
+}
+
+#profile1 {
+  border-radius: 100%;
+}
+#profile2 {
+  border-radius: 100%;
+}
+#profile3 {
+  border-radius: 100%;
+}
+#profile4 {
+  border-radius: 100%;
+}
