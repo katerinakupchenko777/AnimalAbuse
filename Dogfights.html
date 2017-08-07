@@ -4,6 +4,7 @@
 	<title>Dog Fights</title>
 	<link rel="stylesheet" type="text/css" href="dogfights_css.css">
 	<link rel="stylesheet" type="text/css" href="main_css.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 
 	
 	<style type="text/css">
@@ -11,36 +12,38 @@
 			margin:0;
 			padding:0;
 			border:0;
+			font-family: "Roboto Slab";
 		}
-
-		h1{
+		#h_h{
+			background: #158478;
+			display: flex;
+			justify-content: center;
+		}
+		#h_h h1{
 			font-size: 2.5em;
-			text-align: center;
-			margin:300px
+			border: 5px solid rgba(10,20,20,0.4);
+			border-radius: 5px;
+			padding: 20px 60px 20px 60px;
 		}
 
 		h3{
 			font-size: 2em;
 			text-align: center;
-			width: 75%;
 			padding-left: 5px;
-			margin-left: 20px;
 			color:red;
-			margin:200px
 		}
 
 		#bt{
 			display: flex;
-			width: 95%;
+			width: 100%;
 		}
 
 		#bt p{
 			font-size: 1.2em;
 			text-align: left;
-			width: 75%;
 			padding-left: 5px;
-			margin-left: 20px;
-			color:red;
+			
+			color:rgb(255, 58, 58);
 		}
 
 		#box{
@@ -54,38 +57,32 @@
 			width: 270px;
 			height: 200px;
 			border:solid black;
-			margin:30px;
 		}
 
 		#bt2{
 			display: flex;
-			width: 95%;
+			width: 100%;
+			color:rgb(255, 58, 58);
 		}
 
 		#bt2 p{
 			font-size: 1.2em;
 			text-align: left;
-			width: 75%;
-			padding-left: 15px;
-			margin-left:5px;
-			color:red;
+			color:rgb(255, 58, 58);
 		}
 
 		.para{
 			background:url("images/pitbull.jpeg") 100% fixed;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
-    		background-position: center;
-   		 	background-repeat: no-repeat;
     		background-size: cover;
+
 		}
 
 		.para2{
 			background:url("images/dogs.jpg") 100% fixed;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
-    		background-position: center;
-   		 	background-repeat: no-repeat;
     		background-size: cover;
 		}
 
@@ -93,16 +90,24 @@
 			background:url("images/dogg.jpeg") 100% fixed;
 			background-repeat: no-repeat;
 			background-attachment: fixed;
-    		background-position: center;
-   		 	background-repeat: no-repeat;
     		background-size: cover;
 		}
+		.para, .para2, .para3{
+			border-top: 8px solid black;
+			border-bottom: 8px solid black;
+			border-color: rgba(139,140,143,0.6);
+			border-radius: 2%;
+			background-color: rgb(235,245,245);
+		}
 		.parainner{
-			padding:400px;
+			padding:240px;
+		}
+
+		.b_wrdd{
+			background-color: black;
 		}
 
 	</style>
->>>>>>> 99abe09ec559459d0aae382c3e3889b592239339
 	<link rel="stylesheet" type="text/css" href="main_css.css">
 
 	<script>
@@ -113,7 +118,7 @@
 
 </head>
 <body>
-<div id='b_nav'>
+<div id='b_nav' >
 				<ul id='nav'>
 					<!-- <center> -->
 						<a href='index.html' title='Home'><img class="f_img" width='75px' height="75px" style='margin-top:-50px;' src='oh/logo.png'></a>
@@ -130,8 +135,11 @@
 						<a href='warfare.html'>Warfare</a>
 					</ul>
 				</div>
-			</div>
-	<h1>👊 Dog Fighting 👊</h1>
+			</div >
+	<div id='h_h'>
+		<h1>👊 Dog Fighting 👊</h1>
+		
+	</div>
 
 		<section class="para">
 
@@ -140,7 +148,7 @@
 
 		</section>
 
-	<div id='bt'>
+	<div id='bt' class='b_wrdd'>
 
 <p><br><br> Dog fighting is an illegal activity as it should be. It is impossible to know how many people get involved in dog fighting. <br> Dog fighting is when two dogs are forced to fight in a ring until one of the two stand down. Most people find this as a form of  “entertainment” but it’s actually a form of abuse. <br> It’s one of the most heinous forms of animal cruelty. These dogs mostly live in isolation, so it means that live with short heavy chains around their neck. Dogs regularly fight through the use of drugs. These dogs get injected with steroids to enhance muscle mass and encourage aggression. <br> They get their ears cropped and tails docked close to their bodies. This makes the animal body smaller and limits areas that another dog can grab during the fight.</p>
 
@@ -148,7 +156,7 @@
 
 	</div>
 		
-		<div id="bt2">
+		<div id="bt2" class='b_wrdd'>
 
 			<img id="pic" src="images/df.jpg">
 
