@@ -235,8 +235,6 @@ hr{
   color: rgba(255,255,255,0.8);
   display: inline;
   border-radius: 5px;
-
-  /*padding: 5px 50px 5px 50px;margin: 15px 35px 15px 35px;*/
   font-size: 1.25em;
   font-family:'Roboto Slab', sans-serif;
   transition: 0.15s;
@@ -278,6 +276,7 @@ hr{
   display: block;
   text-align: left;
   color: rgba(230,240,245,0.8);
+  
 }
 #links{
   display: flex;
