@@ -72,6 +72,8 @@
 body, html{
   margin: 0;
   height: 100%;
+
+  font-family:'Roboto Slab', sans-serif;
 }
 
 #head{
@@ -107,6 +109,12 @@ body, html{
 }
 #ab_fl{
   display: flex;
+}
+
+.card h2{
+  border-bottom: 5px solid rgba(10,90,80,0.7);
+  border-radius: 10px;
+  color: rgb(105,105,125);
 }
 a{
   text-decoration: none;
@@ -205,6 +213,10 @@ hr{
 .war_p {
   display: flex;
   padding: 20px 50px 20px 50px;
+  font-size: 0.8em;
+}
+.war_p img{
+  float: right;
 }
 .war_p p{
   padding: 20px 50px 20px 50px;
@@ -261,6 +273,17 @@ hr{
   color: white;
 }
 
+#a_hii{
+  font-size: 3em;
+  border: 3px solid rgba(230,240,230,0.9);
+  padding: 50px 120px 50px 120px;
+  color: rgba(230,240,230,0.9);
+}
+#a_pi{
+  padding: 80px 0px 80px 0px;
+  display: flex;
+  justify-content: center;
+}
 #dropTpc{
   visibility: hidden;
   position: absolute;
