@@ -342,3 +342,11 @@ hr{
   border-radius: 100%;
 }
 
+#links2{
+  display: flex;
+  justify-content: center;
+}
+#links2 a{
+   padding: 20px;
+  margin: 5px 10px 5px 10px;
+ }
