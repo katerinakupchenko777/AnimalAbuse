@@ -315,7 +315,6 @@ hr{
 }
 #about{
   display: flex;
-  justify-content: flex-start;
 
 }
 #about div{
@@ -323,8 +322,6 @@ hr{
   justify-content: flex-start;
   flex-direction: column;
   flex-wrap: wrap;
-  border-left: solid;
-  border-right: solid;
 
   
 }
