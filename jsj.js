@@ -31,7 +31,7 @@ $(document).ready(function(){
 	var n_tpcs = $('#dropTpc');
 	var title=document.getElementsByTagName("title")[0].innerHTML;
 	var nav = $('#b_nav');
-	if(title=='Pet Abuse' || title=='War'){
+	if(title=='Pet Abuse' || title=='War' || title=='About'){
 		nav = $('#ab_nav');
 	}
 	var n = $('#b_t_drp').position();
